@@ -2,8 +2,24 @@ html {
     background-image: url(https://pibig.info/uploads/posts/2022-12/1670045635_1-pibig-info-p-chernoe-zvezdnoe-nebo-oboi-oboi-1.jpg);
     color: #8ab4f8;
 }
+
+@font-face {
+	font-family: 'DS Arabic';
+	src: url('../fonts/ds_arabic.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/ds_arabic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/ds_arabic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/ds_arabic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/ds_arabic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/ds_arabic.svg#ds_arabic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
 h1, h2, h3{
     color: #9E5A44;
+}
+
+.mainTitle {
+    font-family: 'DS Arabic';
+    font-size: 50px;
 }
 
 .bigpic {
