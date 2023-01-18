@@ -1,0 +1,26 @@
+html {
+    background-image: url(https://pibig.info/uploads/posts/2022-12/1670045635_1-pibig-info-p-chernoe-zvezdnoe-nebo-oboi-oboi-1.jpg);
+    color: #8ab4f8;
+}
+h1, h2, h3{
+    color: #9E5A44;
+}
+
+.bigpic {
+    width: 500px;
+}
+.text {
+    width: 500px;
+}
+
+a{
+    color: #8ab4f8;
+}
+
+.like{
+    list-style-type: "\1F44D";
+}
+
+.danger {
+    color: red;
+}
