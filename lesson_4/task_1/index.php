@@ -124,7 +124,7 @@ $experience = [
         <div class="w3-container">
           <h5 class="w3-opacity"><b><?= $experience[$i]["name"]; ?></b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?= $experience[$i]["startData"]; ?> - <?= $experience[$i]["endData"]; ?></h6>
-          <p><?= $experience[$i]["description"]; ?></p>
+          <p><?= $experience[$i]["description"]; ?></p><br>
         </div>
         <?php } else { ?>
         <div class="w3-container">
